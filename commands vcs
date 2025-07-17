@@ -1,0 +1,3 @@
+to compile: vcs -full64 -sverilog -ntb_opts uvm-1.2 -cm line+cond test.sv interface.sv RTL.sv operation.sv sequencer.sv sequence.sv driver.sv iMonitor.sv oMonitor.sv input_agent.sv output_agent.sv scoreboard.sv env.sv test_collector.sv -l comp.log
+to simulate:./simv +UVM_VERBOSITY=UVM_MEDIUM +UVM_PHASE_TRACE -l run.log
+to generate coverage report: urg -full64 -dir simv.vdb -format both
