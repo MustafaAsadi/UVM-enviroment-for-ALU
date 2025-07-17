@@ -5,7 +5,7 @@ This project presents a complete Universal Verification Methodology (UVM) testbe
 
 Key Features:
 -------------
-- Full UVM environment: driver, monitor, sequencer, sequences, scoreboard, agent, environment, and test classes
+- Full UVM environment: driver, input and output monitors, sequencer, sequences, sequence item, scoreboard, input active and output passive agents, environment, and test classes
 - Constrained-random and directed sequences for stimulus generation
 - Functional coverage model focused on ALU opcodes and operand combinations
 - Scoreboard for self-checking and DUT output validation
